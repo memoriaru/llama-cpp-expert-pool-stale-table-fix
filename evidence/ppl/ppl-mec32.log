@@ -1,0 +1,11 @@
+0.00.059.158 W DEPRECATED: --mmap and --no-mmap are deprecated. use --load-mode mmap instead
+4.15.375.819 I cmn          init: llama threadpool init, n_threads = 8
+4.16.728.207 I 
+4.16.728.340 I system_info: n_threads = 8 (n_threads_batch = 8) / 16 | CUDA : ARCHS = 890 | USE_GRAPHS = 1 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+4.16.728.358 I perplexity: tokenizing the input ..
+4.17.081.379 I perplexity: tokenization took 353.008 ms
+4.17.081.516 I perplexity: calculating perplexity over 8 chunks, n_ctx=4096, batch_size=1, n_seq=1
+8.36.513.720 I perplexity: 259.43 seconds per pass - ETA 34.58 minutes
+[1]1.3587,[2]2.1449,[3]2.0545,[4]2.2041,[5]2.5546,[6]2.8574,[7]3.1019,[8]3.3096,
+40.03.542.945 I Final estimate: PPL = 3.3096 +/- 0.05257
+

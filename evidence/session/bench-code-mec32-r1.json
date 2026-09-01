@@ -1,0 +1,17 @@
+{
+ "tag": "mec32-r1",
+ "content": "\n\n<think>\nThe user wants me to generate 40 functions (encode_record_2 through encode_record_41) following the exact template provided. Each function takes (int id, const std::string& name, double score) and uses ostringstream with pipe-delimited format and std::fixed << std::setprecision(2). I need to output only the functions, no commentary, starting with ```cpp.\n\nLet me generate all 40 functions in the exact same style as the template.\n</think>\n\n```cpp\nstd::string encode_record_2(int id, const std::string& name, double score) {\n  std::ostringstream oss;\n  oss << id << '|' << name << '|' << std::fixed << std::setprecision(2) << score;\n  return oss.str();\n}\nstd::string encode_record_3(int id, const std::string& name, double score) {\n  std::ostringstream oss;\n  oss << id << '|' << name << '|' << std::fixed << std::setprecision(2) << score;\n  return oss.str();\n}\nstd::string encode_record_4(int id, const std::string& name, double score) {\n  std::ostringstream oss;\n  oss << id << '|' << name << '|' << std::fixed << std::setprecision(2) << score;\n  return oss.str();\n}\nstd::string encode_record_5(int id, const std::string& name, double score) {\n  std::ostringstream oss;\n  oss << id << '|' << name << '|' << std::fixed << std::setprecision(2) << score;\n  return oss.str();\n}\nstd::string encode_record_6(int id, const std::string& name, double score) {\n  std::ostringstream oss;\n  oss << id << '|' << name << '|' << std::fixed << std::setprecision(2) << score;\n  return oss.str();\n}\nstd::string encode_record_7(int id, const std::string& name, double score) {\n  std::ostringstream oss;\n  oss << id << '|' << name << '|' << std::fixed << std::setprecision(2) << score;\n  return oss.str();\n}\nstd::string encode_record_8(int id, const std::string& name, double score) {\n  std::",
+ "timings": {
+  "cache_n": 0,
+  "prompt_n": 173,
+  "prompt_ms": 6028.579,
+  "prompt_per_token_ms": 34.8472774566474,
+  "prompt_per_second": 28.69664642364312,
+  "predicted_n": 512,
+  "predicted_ms": 41388.438,
+  "predicted_per_token_ms": 80.99498630136986,
+  "predicted_per_second": 12.346443226487551
+ },
+ "stop_reason": null,
+ "truncated": false
+}
